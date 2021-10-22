@@ -1,0 +1,12 @@
+Cerrar otra aplicacion que esté usando un puerto que necesito
+
+netstat -ano | findstr LISTENING | findstr 8080
+
+En la carpeta Static (Front END)
+se guardara todos los archivos que vamos a mostrar y seràn utilizados por el usuario 
+
+(Backend)
+En la carpeta controllers 
+se guardan los controlers, los cuales nos ayudan para manejar las URLs o recursos
+
+en la carpeta dao se pondran los archivos que haran la conexion a la base de datos y los objetos que representaran las entidades o trablas 
